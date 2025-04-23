@@ -1,0 +1,45 @@
+body{
+    margin:0;
+}
+
+header{
+display: flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background-color: rgb(37, 36, 36);
+}
+
+header h1{
+    font-size: 3rem;
+    color: white;
+}
+
+header nav a{
+    padding-right: 20px;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem;
+}
+
+section h1{
+font-size:2rem;
+}
+
+section #items{
+    padding:2rem;
+    background-color: rgb(228, 227, 227);
+    border:none;
+    border-radius:10px 0 0 10px;
+}
+section #main{
+    padding:2rem;
+    background-color: rgb(123, 121, 121);
+    border:none;
+    border-radius:0 10px 10px 0;1
+}
